@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module1"
+Attribute VB_Name = "StockAnalysis"
 Sub StockAnalysis()
     Dim labels_1 As Variant
     labels_1 = Array("Ticker", "Yearly Change", "Percent Change", "Total Stock Volume")
