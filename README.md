@@ -1,5 +1,5 @@
 # The-VBA-of-Wall-Street
-[StockAnalysis.bas](StockAnalysis.bas) is a VBA script that aggregates and analyzes stock market data.
+[StockAnalysis.bas](StockAnalysis.bas) is a VBA script that aggregates and analyzes stock market data. The original dataset can be found [here](https://drive.google.com/file/d/1zPX7jH2TjhoMoLyTYBhQA8YMLQ0V4ofF/view?usp=sharing).
 
 The script uses an Excel spreadsheet of daily stock data in the following format:
 >![stock data](readme-images/stock-data.jpg?raw=true "Stock Data")
