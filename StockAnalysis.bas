@@ -1,4 +1,16 @@
 Attribute VB_Name = "StockAnalysis"
+Sub SheetLoop()
+
+    Dim ws As Worksheet
+    
+    For Each ws In Worksheets
+        ws.Activate
+        Call StockAnalysis
+    Next
+    
+End Sub
+
+
 Sub StockAnalysis()
     Dim labels_1 As Variant
     labels_1 = Array("Ticker", "Yearly Change", "Percent Change", "Total Stock Volume")
